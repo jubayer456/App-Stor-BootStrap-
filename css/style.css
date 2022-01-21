@@ -14,17 +14,13 @@ body{
     color: #2937f0;
 }
  .banner{
-    height: calc(100vh - 80px);
-    min-height: 500px;
+    min-height: calc(100vh - 80px);
 } 
 .stop-watching{
-    background-image: url(/img/background.png);
+    background-image: url('../img/background.png');
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 0.5);
-    background-blend-mode: overlay;
-}
-.stop-watching{
-    
+    background-blend-mode: overlay; 
 }
